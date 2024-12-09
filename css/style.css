@@ -149,3 +149,5 @@ input[type="radio"]:checked + .page {
     height: 30px;
     margin-left: 10px;
 }
+#page5 .social img:hover{
+  scale: 1.3;}
