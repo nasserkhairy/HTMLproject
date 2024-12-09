@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(71 163 240);
+    color: #fff;
+}
+.navbar {
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.navbar-link {
+    color: #000;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.navbar-link:hover {
+    background-color: #575757;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+}
+.container .left, .container .right{
+    width: 15%;
+    padding: 20px;
+    height: 80vh;
+    overflow: hidden;
+}
+.container .left p, .container .right p{
+    text-align: justify;
+    background-color: #ffdb60;
+    border-radius: 20px;
+    padding: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.container .content{
+    width: 70%;
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+    height: 85vh;
+    overflow: hidden;
+}
+.page{
+    height: inherit;
+    display: none;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"]:checked + .page {
+    display: block;
+}
+.page .img{
+    width: 100%;
+    height: 100%;
+}
+.page .heading{
+    text-align: center;
+    margin-top: 50px;
+}
+#page2 .page2-container{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    justify-content: center;
+    gap: 40px;
+}
+#page2 .subpage2{
+    width: 35%;
+    border-radius: 5px;
+    height: 160px;
+    box-shadow: 1px 1px 5px #ddd,-1px -1px 5px #ddd;
+    padding: 10px;
+}
+.subpage2 img{
+    width: 60px;
+    height: 50px;
+}
+.subpage2 h4, .subpage2 p{
+    margin-top: 10px;
+}
+#page2 .subpage2:hover{
+    scale: 1.1;
+}
+.page iframe{
+    height: 100%;
+    width: 100%;
+}
+#page4 .page4-container{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    justify-content: center;
+    gap: 30px;
+}
+#page4 .subpage4{
+    width: 20%;
+    border-radius: 5px;
+    height: 170px;
+    text-align: center;
+}
+#page4 .subpage4:hover{
+    scale: 1.2;
+}
+.subpage4 img{
+    width:100%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#page5 .myImage{
+    text-align: center;
+    margin: 20px auto;
+}
+#page5 .myImage img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+#page5 .social{
+    text-align: center;
+}
+#page5 .social img{
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
