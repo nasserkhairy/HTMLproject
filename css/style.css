@@ -43,7 +43,7 @@ header{
 .container .left, .container .right{
     width: 15%;
     padding: 20px;
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
 }
 .container .left p, .container .right p{
